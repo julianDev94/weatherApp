@@ -15,7 +15,7 @@ const FormularioConsulta = ({ setCiudad }) => {
       <Container>
         <Form className="py-3" onSubmit={handleSubmit}>
           <Row>
-            <Col sm={12} md={8}>
+            <Col xs={8} md={8}>
               <Form.Group className="mb-3" controlId="busquedaClimaCiudad">
                 <Form.Control
                   type="text"
@@ -27,7 +27,7 @@ const FormularioConsulta = ({ setCiudad }) => {
                 />
               </Form.Group>
             </Col>
-            <Col sm={12} md={2}>
+            <Col xs={4} md={2}>
               <Button variant="dark" type="submit">
                 <i className="bi bi-search"></i> Buscar
               </Button>
