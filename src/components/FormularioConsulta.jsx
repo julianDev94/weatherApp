@@ -1,7 +1,7 @@
 import Form from "react-bootstrap/Form";
 import { Button, Row, Col, Container } from "react-bootstrap";
 
-const FormularioConsulta = () => {
+const FormularioConsulta = ({setCiudad}) => {
   return (
     <section className="consultaClima">
       <Container>
@@ -15,7 +15,7 @@ const FormularioConsulta = () => {
                   minLength={3}
                   maxLength={20}
                   required
-                  
+                  onChange={(e)=>setCiudad(e.target.value)}
                 />
               </Form.Group>
             </Col>

@@ -18,7 +18,7 @@ function App() {
 
   const consultaAPI = async () =>{
     const apiKey = "278f9f00026e70711f4fffe4a00476a1";
-    const respuesta = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=Tucuman&appid=${apiKey}&lang=es`);
+    const respuesta = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&lang=es`);
     const datosBody = await respuesta.json();
     console.log(datosBody);
     setClima(datosBody);
