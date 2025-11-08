@@ -19,3 +19,9 @@
 .consultaClima {
   background: #8f9a9e;
 }
+
+.colorNoche{
+  height: 400px;
+  border-radius: 15px;
+  background:#1B263B ;
+}
