@@ -21,7 +21,7 @@ const FormularioConsulta = () => {
             </Col>
             <Col md={2}>
               <Button variant="dark" type="submit">
-                Buscar
+                Buscar <i class="bi bi-search"></i>
               </Button>
             </Col>
           </Row>
