@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Share+Tech&display=swap');
+
+
+.titulo{
+  background: #404446;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.consultaClima {
+  background: #8f9a9e;
+}
