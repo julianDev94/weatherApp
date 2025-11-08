@@ -19,3 +19,11 @@
 .consultaClima {
   background: #8f9a9e;
 }
+
+.colorNoche{
+  font-size: 20px;
+  font-family: "Nunito Sans", sans-serif;;
+  height: 300px;
+  border-radius: 15px;
+  background:#1B263B ;
+}
