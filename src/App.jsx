@@ -13,7 +13,7 @@ function App() {
   const [ciudad, setCiudad] = useState("");
 
   useEffect(()=>{
-    // consultaAPI();
+    consultaAPI();
   },[]);
 
   const consultaAPI = async () =>{
@@ -29,7 +29,7 @@ function App() {
       <section className="seccionPrincipal">
         <TituloPrincipal />
         <FormularioConsulta setCiudad={setCiudad} />
-        <ClimaDisplay />
+        <ClimaDisplay clima={clima} />
       </section>
 
       <Footer></Footer>
