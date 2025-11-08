@@ -3,7 +3,7 @@ import { Button, Row, Col, Container } from "react-bootstrap";
 
 const FormularioConsulta = () => {
   return (
-    <section className="bg-secondary">
+    <section className="consultaClima">
       <Container>
         <Form className="py-3">
           <Row>
@@ -21,7 +21,7 @@ const FormularioConsulta = () => {
             </Col>
             <Col md={2}>
               <Button variant="dark" type="submit">
-                Buscar <i class="bi bi-search"></i>
+                 <i class="bi bi-search"></i> Buscar
               </Button>
             </Col>
           </Row>
