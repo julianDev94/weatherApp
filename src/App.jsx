@@ -7,9 +7,12 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <TituloPrincipal />
-      <FormularioConsulta />
-      <ClimaDisplay />
+      <section className="seccionPrincipal">
+        <TituloPrincipal />
+        <FormularioConsulta />
+        <ClimaDisplay />
+      </section>
+
       <Footer></Footer>
     </>
   );
