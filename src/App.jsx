@@ -13,7 +13,7 @@ function App() {
   
 
   useEffect(() => {
-    consultaAPI();
+    // consultaAPI();
   }, [ciudad]);
 
   const consultaAPI = async () => {
@@ -27,7 +27,7 @@ function App() {
 
   const displayClima = !ciudad ? (
     <Container className="text-center my-5">
-      <h4>🌦️ Ingrese una ciudad para consultar el clima</h4>
+      <h4>🌦️ Ingrese cualquier ciudad del mundo para consultar el clima</h4>
       <p>Por ejemplo: "Buenos Aires", "Madrid" o "Tucumán"</p>
     </Container>
   ) : (
