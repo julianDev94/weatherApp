@@ -1,16 +1,22 @@
-# React + Vite
+# App del Clima en tiempo real
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto React que consume una API REST del servicio OpenWeatherMap para visualizar datos del clima en tiempo real (temperatura, sensación térmica, humedad y presion atmosférica) en una interfaz responsiva. 
+El objetivo del proyecto es practicar el consumo de APIs RESTful, el manejo de estados con React y el diseño de interfaces dinámicas y responsivas.
 
-Currently, two official plugins are available:
+## Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [API OpenWeather](https://openweathermap.org)
+- [https://react-bootstrap.github.io](https://react-bootstrap.github.io)
+- [Bootstrap v5.3.8](https://getbootstrap.com)
 
-## React Compiler
+## Pasos clonar el proyecto 😎
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Si deseas probar el proyecto segui los siguientes comandos:
 
-## Expanding the ESLint configuration
+1. Te posicionas dentro de un repositorio en la cual quieras realizar la copia del proyecto
+2. Abris la terminal de linea de comando
+3. tipeas el siguiente comando git clone https://github.com/julianDev94/weatherApp.git ✅
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Autor
+
+- Julian Aballay 👨‍🦰💻
